@@ -12,11 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing Github action'
-        run: pwd
+      - name: 'before'
+        run: ls
 
-      - name: 'testing printing'
-        run: echo soliman
+      - uses: actions/checkout@v3
 
-      - name: 'printing folder contents'
+      - name: 'after'
         run: ls
