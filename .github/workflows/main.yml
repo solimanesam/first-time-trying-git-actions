@@ -17,4 +17,6 @@ jobs:
 
       - name: 'testing printing'
         run: echo soliman
-        
+
+      - name: 'printing folder contents'
+        run: ls
